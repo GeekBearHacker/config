@@ -1,20 +1,20 @@
 
-# one(48125063@qq.com)
+# one(email1)
 Host 48125063.github.com
 HostName github.com
 PreferredAuthentications publickey
 IdentityFile C:\Users\alice\.ssh\id_rsa_48125063
-User 48125063@qq.com
+User email1
 
-# two(3442417@qq.com)
+# two(email2)
 Host 3442417.github.com
 HostName github.com
 #PreferredAuthentications publickey
 IdentityFile C:\Users\alice\.ssh\id_rsa_3442417
-User 3442417@qq.com
+User email2
 
-# Three(GeekBearHacker@gmail.com)
+# Three(email3)
 Host GeekBearHacker.github.com
 HostName github.com
 IdentityFile C:\Users\alice\.ssh\id_rsa_GeekBearHacker
-User GeekBearHacker
+User email3
