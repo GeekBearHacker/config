@@ -1,0 +1,20 @@
+
+# one(48125063@qq.com)
+Host 48125063.github.com
+HostName github.com
+PreferredAuthentications publickey
+IdentityFile C:\Users\alice\.ssh\id_rsa_48125063
+User 48125063@qq.com
+
+# two(3442417@qq.com)
+Host 3442417.github.com
+HostName github.com
+#PreferredAuthentications publickey
+IdentityFile C:\Users\alice\.ssh\id_rsa_3442417
+User 3442417@qq.com
+
+# Three(GeekBearHacker@gmail.com)
+Host GeekBearHacker.github.com
+HostName github.com
+IdentityFile C:\Users\alice\.ssh\id_rsa_GeekBearHacker
+User GeekBearHacker
