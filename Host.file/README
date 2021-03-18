@@ -2,17 +2,21 @@
 #####
 #####    HOST文件配置（随时配置随时添加）
 
-1、目前文件添加的 GitHub 的主机配置，用以提高访问速度。
+1、目前文件添加的 GitHub 的主机配置，用以提高访问流畅度。
 
-    a.访问
-        https://www.ipaddress.com/
-        http://whoissoft.com/
-        http://ip.tool.chinaz.com/
-        输入需要解析的网址
-        https://github.com
-        https://github.global.ssl.fastly.Net
-        https://assets-cdn.github.com
-        https://gist.github.com
-        查阅到对应的IP地址
-    b.在hosts文件中添加解析的IP和对应的域名地址，保存文件。
+    a.访问域名/IP查询系统网站
+        首选：(在同一终端下登录以下2网址)
+            https://www.ipaddress.com/
+            http://whoissoft.com/
+        备选：
+            http://ip.tool.chinaz.com/
+        把以下需要解析的网址同时在首选域名/IP查询系统网站进行
+        解析(必查前三个网址)，
+            https://github.com
+            https://github.global.ssl.fastly.Net
+            https://assets-cdn.github.com
+            https://gist.github.com
+        到对应的IP地址。
+    b.在hosts文件中添加解析的IP和对应的域名，然后保存。
+    c.在不同的网络里，DNS不同，查询结果也不同，因此要区别对待。
 
