@@ -4,6 +4,15 @@
 
 1、目前文件添加的 GitHub 的主机配置，用以提高访问速度。
 
-    a.访问https://www.ipaddress.com/（http://whoissoft.com/）（http://ip.tool.chinaz.com/）输入需要解析的网址（https://github.com，https://github.global.ssl.fastly.Net以及https://assets-cdn.github.com）查阅到对应的IP地址
+    a.访问
+        https://www.ipaddress.com/
+        http://whoissoft.com/
+        http://ip.tool.chinaz.com/
+        输入需要解析的网址
+        https://github.com
+        https://github.global.ssl.fastly.Net
+        https://assets-cdn.github.com
+        https://gist.github.com
+        查阅到对应的IP地址
     b.在hosts文件中添加解析的IP和对应的域名地址，保存文件。
 
