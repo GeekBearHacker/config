@@ -1,20 +1,20 @@
 
 # one(email1)
 Host name1.github.com
-HostName github.com
-PreferredAuthentications publickey
-IdentityFile C:\Users\alice\.ssh\id_rsa_name1
-User email1
+    HostName github.com
+    PreferredAuthentications publickey
+    IdentityFile C:\Users\alice\.ssh\id_rsa_name1
+    User email1
 
 # two(email2)
 Host name2.github.com
-HostName github.com
-#PreferredAuthentications publickey
-IdentityFile C:\Users\alice\.ssh\id_rsa_name2
-User email2
+    HostName github.com
+    #PreferredAuthentications publickey
+    IdentityFile C:\Users\alice\.ssh\id_rsa_name2
+    User email2
 
 # Three(email3)
-Host name3.github.com
-HostName github.com
-IdentityFile C:\Users\alice\.ssh\id_rsa_name3
-User email3
+    Host name3.github.com
+    HostName github.com
+    IdentityFile C:\Users\alice\.ssh\id_rsa_name3
+    User email3
